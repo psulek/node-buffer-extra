@@ -8,6 +8,12 @@ Installation
     npm install --save buffer-extra
 
 
+Run tests
+---------
+
+    npm test
+
+
 Usage
 -----
 

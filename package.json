@@ -1,6 +1,6 @@
 {
   "name": "buffer-extra",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Node.js extra methods for buildin Buffer class like equals(), sliceNew()",
   "main": "./lib/index.js",
   "scripts": {
@@ -25,7 +25,11 @@
     "sliceNew"
   ],
   "author": "Peter Šulek <psulek@gmail.com>",
-  "license": "ISC",
+  "licenses": [ 
+    { 
+      "type": "ISC", 
+      "url": "https://github.com/psulek/node-buffer-extra/blob/master/LICENSE" } 
+  ],
   "bugs": {
     "url": "https://github.com/psulek/node-buffer-extra/issues"
   },
