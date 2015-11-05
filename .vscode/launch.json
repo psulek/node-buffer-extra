@@ -1,0 +1,25 @@
+{
+	"version": "0.1.0",
+	// List of configurations. Add new configurations or edit existing ones.
+	"configurations": [
+		{
+			"name": "Run mocha tests",
+			"type": "node",
+			"program": "./node_modules/mocha/bin/_mocha",
+			"stopOnEntry": false,
+            "args": ["test/test.js"],
+            "cwd": ".",
+            "runtimeExecutable": null,
+            "env": { "NODE_ENV": "production"}
+		},
+		{
+			"name": "Attach",
+			"type": "node",
+			// TCP/IP address. Default is "localhost".
+			"address": "localhost",
+			// Port to attach to.
+			"port": 5858,
+			"sourceMaps": false
+		}
+	]
+}
