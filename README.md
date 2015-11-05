@@ -20,7 +20,7 @@ var bfx = require('buffer-extra');
 Methods
 -------
 - [equals](#equals)
-- [sliceNew](#sliceNew)
+- [sliceNew](#slicenew)
 
 
 ### equals()
