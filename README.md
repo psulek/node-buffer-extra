@@ -1,5 +1,5 @@
-# Node.js: buffer-extra
-=======================
+Node.js: buffer-extra
+---------------------
 [![build status](https://api.travis-ci.org/psulek/node-buffer-extra.svg)](https://travis-ci.org/psulek/node-buffer-extra)
 
 `buffer-extra` provide extra methods for buildin Buffer class like equals(), sliceNew()
